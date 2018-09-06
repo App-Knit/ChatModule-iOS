@@ -61,9 +61,7 @@ class UsersMap: UIViewController,CLLocationManagerDelegate,GMSMapViewDelegate,UI
             })
            
         }
-        DispatchQueue.main.async {
-            self.tableView.reloadData()
-        }
+       
     }
     
 //    func setUpLocation() {
