@@ -7,21 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		220B3EE021417E9B00D547C9 /* TotalUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220B3EDF21417E9B00D547C9 /* TotalUserCell.swift */; };
+		2213C76A20FD0FE3007D9162 /* MarkerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2213C76920FD0FE3007D9162 /* MarkerView.xib */; };
+		2213C76C20FD12C0007D9162 /* MarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2213C76B20FD12C0007D9162 /* MarkerView.swift */; };
 		221FF6A120ECCA1D009E14D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221FF6A020ECCA1D009E14D0 /* AppDelegate.swift */; };
-		221FF6A320ECCA1D009E14D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221FF6A220ECCA1D009E14D0 /* ViewController.swift */; };
 		221FF6A620ECCA1D009E14D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 221FF6A420ECCA1D009E14D0 /* Main.storyboard */; };
 		221FF6A820ECCA1D009E14D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221FF6A720ECCA1D009E14D0 /* Assets.xcassets */; };
 		221FF6AB20ECCA1D009E14D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 221FF6A920ECCA1D009E14D0 /* LaunchScreen.storyboard */; };
+		221FF6B720ECD5A5009E14D0 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221FF6B620ECD5A5009E14D0 /* Login.swift */; };
+		221FF6B920ECD5BF009E14D0 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221FF6B820ECD5BF009E14D0 /* Register.swift */; };
+		221FF6BB20ECD68A009E14D0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 221FF6BA20ECD68A009E14D0 /* GoogleService-Info.plist */; };
+		2253B830213FCDCA001BB0B3 /* mapStyle.json in Resources */ = {isa = PBXBuildFile; fileRef = 2253B82F213FCDCA001BB0B3 /* mapStyle.json */; };
+		227E294D213D281B007D7EF8 /* Conversations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227E294C213D281B007D7EF8 /* Conversations.swift */; };
+		227E2950213D3CD1007D7EF8 /* ConversationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227E294F213D3CD1007D7EF8 /* ConversationCell.swift */; };
+		227E2952213D3DA3007D7EF8 /* Conversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227E2951213D3DA3007D7EF8 /* Conversation.swift */; };
+		227E2954213D3FD8007D7EF8 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227E2953213D3FD8007D7EF8 /* Messages.swift */; };
+		227E2956213D4909007D7EF8 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227E2955213D4909007D7EF8 /* Chat.swift */; };
+		227E2958213D4ADA007D7EF8 /* ChatCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227E2957213D4ADA007D7EF8 /* ChatCells.swift */; };
+		22D561E320EDE43E00E6A516 /* ExtensionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D561E220EDE43E00E6A516 /* ExtensionHelper.swift */; };
+		22D561E520EDE47500E6A516 /* ProjectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D561E420EDE47500E6A516 /* ProjectManager.swift */; };
+		22D561E720EDE49500E6A516 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D561E620EDE49500E6A516 /* User.swift */; };
+		22E9F75920EE2C9B00B7B9B9 /* UsersMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E9F75820EE2C9B00B7B9B9 /* UsersMap.swift */; };
+		F00C0D63D78D57E8DA933C3D /* Pods_Saini.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7BC3CBD59732E9A755A9DA /* Pods_Saini.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		220B3EDF21417E9B00D547C9 /* TotalUserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalUserCell.swift; sourceTree = "<group>"; };
+		2213C76920FD0FE3007D9162 /* MarkerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarkerView.xib; sourceTree = "<group>"; };
+		2213C76B20FD12C0007D9162 /* MarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerView.swift; sourceTree = "<group>"; };
 		221FF69D20ECCA1D009E14D0 /* Saini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Saini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		221FF6A020ECCA1D009E14D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		221FF6A220ECCA1D009E14D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		221FF6A520ECCA1D009E14D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		221FF6A720ECCA1D009E14D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		221FF6AA20ECCA1D009E14D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		221FF6AC20ECCA1D009E14D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		221FF6B620ECD5A5009E14D0 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		221FF6B820ECD5BF009E14D0 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		221FF6BA20ECD68A009E14D0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2253B82F213FCDCA001BB0B3 /* mapStyle.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mapStyle.json; sourceTree = "<group>"; };
+		227E294C213D281B007D7EF8 /* Conversations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversations.swift; sourceTree = "<group>"; };
+		227E294F213D3CD1007D7EF8 /* ConversationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationCell.swift; sourceTree = "<group>"; };
+		227E2951213D3DA3007D7EF8 /* Conversation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversation.swift; sourceTree = "<group>"; };
+		227E2953213D3FD8007D7EF8 /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
+		227E2955213D4909007D7EF8 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		227E2957213D4ADA007D7EF8 /* ChatCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCells.swift; sourceTree = "<group>"; };
+		22D561E220EDE43E00E6A516 /* ExtensionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionHelper.swift; sourceTree = "<group>"; };
+		22D561E420EDE47500E6A516 /* ProjectManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectManager.swift; sourceTree = "<group>"; };
+		22D561E620EDE49500E6A516 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		22E9F75820EE2C9B00B7B9B9 /* UsersMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersMap.swift; sourceTree = "<group>"; };
+		B54E32DE9746E029C30245AD /* Pods-Saini.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Saini.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Saini/Pods-Saini.debug.xcconfig"; sourceTree = "<group>"; };
+		CD200A951636AD63CA956B9B /* Pods-Saini.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Saini.release.xcconfig"; path = "Pods/Target Support Files/Pods-Saini/Pods-Saini.release.xcconfig"; sourceTree = "<group>"; };
+		FA7BC3CBD59732E9A755A9DA /* Pods_Saini.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Saini.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +65,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F00C0D63D78D57E8DA933C3D /* Pods_Saini.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2213C76820FD0FB6007D9162 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				2213C76920FD0FE3007D9162 /* MarkerView.xib */,
+				2213C76B20FD12C0007D9162 /* MarkerView.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
 		221FF69420ECCA1D009E14D0 = {
 			isa = PBXGroup;
 			children = (
 				221FF69F20ECCA1D009E14D0 /* Saini */,
 				221FF69E20ECCA1D009E14D0 /* Products */,
+				2A69B8714B07211AA7162CEC /* Pods */,
+				995A2804AF6539BF4B817520 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +102,94 @@
 		221FF69F20ECCA1D009E14D0 /* Saini */ = {
 			isa = PBXGroup;
 			children = (
-				221FF6A020ECCA1D009E14D0 /* AppDelegate.swift */,
-				221FF6A220ECCA1D009E14D0 /* ViewController.swift */,
-				221FF6A420ECCA1D009E14D0 /* Main.storyboard */,
+				2213C76820FD0FB6007D9162 /* CustomView */,
+				22D561DD20EDE1D800E6A516 /* Helper */,
+				221FF6B520ECD57B009E14D0 /* AppDelegate */,
+				221FF6B420ECD569009E14D0 /* Controller */,
+				221FF6B320ECD560009E14D0 /* View */,
+				221FF6B220ECD559009E14D0 /* Model */,
 				221FF6A720ECCA1D009E14D0 /* Assets.xcassets */,
 				221FF6A920ECCA1D009E14D0 /* LaunchScreen.storyboard */,
 				221FF6AC20ECCA1D009E14D0 /* Info.plist */,
+				221FF6BA20ECD68A009E14D0 /* GoogleService-Info.plist */,
+				2253B82F213FCDCA001BB0B3 /* mapStyle.json */,
 			);
 			path = Saini;
+			sourceTree = "<group>";
+		};
+		221FF6B220ECD559009E14D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				22D561E620EDE49500E6A516 /* User.swift */,
+				227E2951213D3DA3007D7EF8 /* Conversation.swift */,
+				227E2953213D3FD8007D7EF8 /* Messages.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		221FF6B320ECD560009E14D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				221FF6A420ECCA1D009E14D0 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		221FF6B420ECD569009E14D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				227E294E213D3C33007D7EF8 /* TableViewCell */,
+				221FF6B620ECD5A5009E14D0 /* Login.swift */,
+				221FF6B820ECD5BF009E14D0 /* Register.swift */,
+				22E9F75820EE2C9B00B7B9B9 /* UsersMap.swift */,
+				227E294C213D281B007D7EF8 /* Conversations.swift */,
+				227E2955213D4909007D7EF8 /* Chat.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		221FF6B520ECD57B009E14D0 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				221FF6A020ECCA1D009E14D0 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		227E294E213D3C33007D7EF8 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				227E294F213D3CD1007D7EF8 /* ConversationCell.swift */,
+				227E2957213D4ADA007D7EF8 /* ChatCells.swift */,
+				220B3EDF21417E9B00D547C9 /* TotalUserCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		22D561DD20EDE1D800E6A516 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				22D561E220EDE43E00E6A516 /* ExtensionHelper.swift */,
+				22D561E420EDE47500E6A516 /* ProjectManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		2A69B8714B07211AA7162CEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B54E32DE9746E029C30245AD /* Pods-Saini.debug.xcconfig */,
+				CD200A951636AD63CA956B9B /* Pods-Saini.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		995A2804AF6539BF4B817520 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA7BC3CBD59732E9A755A9DA /* Pods_Saini.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 221FF6AF20ECCA1D009E14D0 /* Build configuration list for PBXNativeTarget "Saini" */;
 			buildPhases = (
+				A8BC82348E2CEC4FB1296E87 /* [CP] Check Pods Manifest.lock */,
 				221FF69920ECCA1D009E14D0 /* Sources */,
 				221FF69A20ECCA1D009E14D0 /* Frameworks */,
 				221FF69B20ECCA1D009E14D0 /* Resources */,
+				BA9F017661BEA7C6085DA29B /* [CP] Embed Pods Frameworks */,
+				00BEFF904E76ABC6CDA76D20 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,19 +256,100 @@
 			files = (
 				221FF6AB20ECCA1D009E14D0 /* LaunchScreen.storyboard in Resources */,
 				221FF6A820ECCA1D009E14D0 /* Assets.xcassets in Resources */,
+				2253B830213FCDCA001BB0B3 /* mapStyle.json in Resources */,
+				2213C76A20FD0FE3007D9162 /* MarkerView.xib in Resources */,
+				221FF6BB20ECD68A009E14D0 /* GoogleService-Info.plist in Resources */,
 				221FF6A620ECCA1D009E14D0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00BEFF904E76ABC6CDA76D20 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Saini/Pods-Saini-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Saini/Pods-Saini-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8BC82348E2CEC4FB1296E87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Saini-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA9F017661BEA7C6085DA29B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Saini/Pods-Saini-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/NKVPhonePicker/NKVPhonePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NKVPhonePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Saini/Pods-Saini-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		221FF69920ECCA1D009E14D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				221FF6A320ECCA1D009E14D0 /* ViewController.swift in Sources */,
+				227E2956213D4909007D7EF8 /* Chat.swift in Sources */,
+				2213C76C20FD12C0007D9162 /* MarkerView.swift in Sources */,
+				227E2954213D3FD8007D7EF8 /* Messages.swift in Sources */,
+				220B3EE021417E9B00D547C9 /* TotalUserCell.swift in Sources */,
+				221FF6B920ECD5BF009E14D0 /* Register.swift in Sources */,
+				22D561E320EDE43E00E6A516 /* ExtensionHelper.swift in Sources */,
+				22E9F75920EE2C9B00B7B9B9 /* UsersMap.swift in Sources */,
+				227E2950213D3CD1007D7EF8 /* ConversationCell.swift in Sources */,
+				227E2958213D4ADA007D7EF8 /* ChatCells.swift in Sources */,
+				227E2952213D3DA3007D7EF8 /* Conversation.swift in Sources */,
+				227E294D213D281B007D7EF8 /* Conversations.swift in Sources */,
+				22D561E720EDE49500E6A516 /* User.swift in Sources */,
+				22D561E520EDE47500E6A516 /* ProjectManager.swift in Sources */,
 				221FF6A120ECCA1D009E14D0 /* AppDelegate.swift in Sources */,
+				221FF6B720ECD5A5009E14D0 /* Login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,14 +484,17 @@
 		};
 		221FF6B020ECCA1D009E14D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B54E32DE9746E029C30245AD /* Pods-Saini.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 29P85S93NP;
+				DEVELOPMENT_TEAM = 6Q233F3ZPX;
 				INFOPLIST_FILE = Saini/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sainiSaab.Saini;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,14 +502,17 @@
 		};
 		221FF6B120ECCA1D009E14D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD200A951636AD63CA956B9B /* Pods-Saini.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 29P85S93NP;
+				DEVELOPMENT_TEAM = 6Q233F3ZPX;
 				INFOPLIST_FILE = Saini/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sainiSaab.Saini;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
